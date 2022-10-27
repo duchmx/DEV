@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: monospace;
+    margin: 0 auto;
+}
+
+th,
+td {
+    width: 60px;
+    height: 40px;
+}
+
+.m {
+    border-color: transparent;
+}
+
+.h {
+    border-color: transparent black transparent transparent;
+}
+
+.t {
+    border-color: transparent transparent black transparent;
+    background-color: white !important;
+}
+
+th:hover,
+td:hover {
+    background-color: red;
+}
+
+.r:hover~th,
+.r:hover~td,
+.h:hover~th,
+.h:hover~td {
+    background-color: pink;
+}
